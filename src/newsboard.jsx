@@ -7,7 +7,7 @@ const NewsBoard = ({ category }) => {
   const [isError, setIsError] = useState({ status: false, msg: "" });
 
   const fetchNewsData = async () => {
-    const apiUrl = `https://newsapi.org/v2/top-headlines?country=us&category=${category}&apiKey=76ddfd554b524cbe9b114244925b7708`;
+    const apiUrl = `https://newsapi.org/v2/top-headlines?country=us&category=${category}&apiKey=Enter your api key`;
 
     setLoading(true);
     setIsError({ status: false, msg: "" });
